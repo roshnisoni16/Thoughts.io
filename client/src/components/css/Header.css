@@ -1,0 +1,52 @@
+/* Header.css */
+.navbar-dark {
+    background-color: #000 !important; /* Black background */
+}
+
+.logo {
+    font-family: "Grey Qo";
+    font-size: 2.5rem;
+    outline: none; 
+}
+.nav-text{
+    color: white;
+    transition: 0.5s;
+    border-radius: 3px;
+    padding: 5px 30px;
+    margin-right: 20px;
+}
+.nav-text:hover{
+    background-color: #39FF14;
+    color: #000!important;
+}
+.nav-text.active{
+    background-color: #39FF14;
+    color: #000!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75); /* Lighter text color */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1); /* Full white on hover */
+}
+
+.form-control {
+    background-color: #000; /* Black background for input */
+    color: #fff; /* White text */
+    border: 1px solid #ccc; /* Light border */
+}
+
+.form-control::placeholder {
+    color: #ccc; /* Light placeholder text */
+}
+
+.btn-outline-success {
+    color: #28a745; /* Button text color */
+    border-color: #28a745; /* Button border color */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: #fff; /* White text on hover */
+}

@@ -1,0 +1,32 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f0f0 25%, #d9d9d9 75%);
+    color: #333;
+}
+
+/* Custom Bootstrap Modifications */
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header .current a {
+    background: rgba(7, 121, 228, 0.1);
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+section.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
