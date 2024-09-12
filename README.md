@@ -1,4 +1,4 @@
-#Thoughts.io
+Thoughts.io
 
 -Developed a comprehensive blogging platform, Thoughts.io, allowing users to seamlessly create, edit, and share multimedia blog posts.
 -Front-End Development: Created a responsive, user-friendly interface using HTML, CSS, and React, boosting user engagement by 25%.
